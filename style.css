@@ -1,0 +1,268 @@
+.pre{
+    background-color: rgb(209, 248, 248);
+    display: flex;
+    position: relative;
+    padding-top: 75px;
+}
+header{
+    background-color: rgb(225, 252, 252);
+    border-radius: 5px;
+    
+    position:relative;
+    
+    height: 700px;
+    width: 100%;
+    
+    
+    
+    
+}
+.djob{
+  margin-top: 5%;
+}
+.name{
+    font-family: "Sacramento";
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size:100px;
+    color:#66bfbf ;
+    font-weight: bolder;
+    margin-top: 5%;
+    position:relative;
+}
+.job{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color:#66bfbf ;
+    font-weight: bolder;
+    margin-top: -6%;
+    position:relative;
+    
+    gap: -5px;
+    
+
+
+}
+
+.mon1{
+    left: 30%;
+    margin-top: 8%;
+    display: flex;
+    position: relative;
+    min-block-size: unset;
+    
+    
+    
+  
+    
+    
+
+}
+.cloud1{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 300px;
+    top: -5%;
+}
+.cloud2{
+    margin-left: 15%;
+    margin-bottom: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+}
+.prof{
+    height: 200px;
+    width: 200px;
+   
+    
+}
+
+
+@media (max-width: 900px){
+    header{
+      flex-direction: column;
+      height: 500px;
+      
+    }
+    
+  }
+  @media(max-width:900px){
+    .mon1{
+        flex-direction:row;
+        height: 1px;
+        width: 1px;
+    }
+    
+  }
+  @media(max-width:500px){
+  .ds{
+    text-align: start;
+    margin-right: 100%;
+    
+   
+  }
+  .p{
+    text-align: center;
+    margin-top: 100%;
+    margin-left: -300%;
+  }
+  .dst{
+    text-align: start;
+    margin-right: 20%;
+    
+   
+  }
+  .pt{
+    text-align: center;
+    margin-top: 120%;
+    margin-left: -300%;
+  }
+  
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+}
+@media(max-width:500px){#ul{
+  margin-top:-15%;
+ }}
+
+  body {
+    font-family: 'Sono', sans-serif;
+  }
+  .hi{
+    
+    
+    color: #66bfbf;
+    font-size: 40px;
+    
+    
+    
+  } 
+  .tow{
+    text-align: center;
+
+    
+   
+
+  }
+  .s2{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .gif{
+    height: 200px;
+    width: 250px;
+    margin-left: 0%;
+    margin-top: -15%;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position:relative;
+    
+
+  }
+  .ers{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+  }
+  .ds{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #539b9b;
+  }
+  .skill{
+    text-align: center;
+    color: #539b9b;
+    font-size: 50px;
+  }
+  .erst{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    }
+    .gift{
+    height: 200px;
+    width: 200px;
+    margin-left: 0%;
+    margin-top: -15%;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position:relative;
+    }
+    .dst{
+        color:#539b9b;
+    }
+    h1{
+        text-align: center;
+        color:#66bfbf;
+        font-family: cursive;
+    }
+    h2{
+        text-align: center;
+        color: #539b9b;
+    }
+    p{
+        text-align: center;
+    }
+    .btn {
+        margin-left: 47%;
+      }
+   footer{
+    background-color:rgb(209, 248, 248);
+    border-radius: 5px;
+    
+    position:relative;
+    
+    height: 150x;
+    width: 100%;
+   }
+   #ul{
+    margin-top:-10%;
+    margin-left: -20%;
+   }
+   
+   
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*.id{
+    text-align: center;
+  }*/
